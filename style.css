@@ -240,7 +240,10 @@ body.light-mode .contact-btn:hover {
     background-color: #005f61;
 }
 
-
+body.light-mode .btn.secondary:hover {
+    background-color: #007b80;
+    color: white;
+}
 
 
 
