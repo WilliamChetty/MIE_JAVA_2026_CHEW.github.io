@@ -124,6 +124,7 @@ button:hover {
 .btn.secondary {
     background-color: transparent;
     border: 1px solid #00adb5;
+    color: white;
 }
 
 .btn:hover {
@@ -245,12 +246,10 @@ body.light-mode .btn.secondary:hover {
     color: white;
 }
 
-
-
-
-
-
-
+body.light-mode .hero .btn.secondary {
+    color: hsl(0, 0%, 100%) !important;
+    border: 1px solid #007b80 !important;
+}
 
 
 
