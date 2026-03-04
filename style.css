@@ -458,3 +458,53 @@ body.light-mode {
     z-index: -1; /* behind everything */
     pointer-events: none; /* don’t block clicks */
 }
+
+
+.project-card {
+    background-color: #1e1e1e;
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.project-card h3 {
+    color: #00adb5;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    color: #ccc;
+    margin-bottom: 15px;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+}
+
+/* Light mode */
+body.light-mode .project-card {
+    background-color: #eaeaea;
+    color: #111;
+}
+
+body.light-mode .project-card h3 {
+    color: #007b80;
+}
+
+
+/* Light Mode Project Cards */
+body.light-mode .project-card {
+    background-color: #eaeaea;  /* light background */
+    color: #111;                /* main text color */
+}
+
+body.light-mode .project-card h3 {
+    color: #007b80;             /* project title color */
+}
+
+body.light-mode .project-card p {
+    color: #333;                /* paragraph text darker for readability */
+}
